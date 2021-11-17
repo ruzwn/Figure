@@ -6,6 +6,9 @@ namespace Figure
     {
         static void Main(string[] args)
         {
+            Triangle temp = new Triangle();
+            Console.WriteLine(temp);
+            Console.WriteLine(temp.Square);
             Triangle t1 = new Triangle(0, 0, 3, 3, 3, 0);
             Triangle t2 = new Triangle(0, 0, -3, -3, -3, 0);
             Triangle t3 = new Triangle(1, 2);
